@@ -1,6 +1,6 @@
 main:
   - title: "Intro"
-    url: //intro/
+    url: //introduction/
   - title: "Category Theory"
     url: //math/
   - title: "Protocol"
