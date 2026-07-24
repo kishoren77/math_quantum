@@ -25,7 +25,7 @@ By the coherence theorem, any equation in a strict monoidal category is mathemat
 3. **Sequential Composition** ($$g \circ f$$) is drawn by stacking $$g$$ on top of $$f$$. 
 4. **Parallel Composition** ($$f \otimes g$$) is drawn by placing $$f$$ and $$g$$ side by side.
 
-A state vector $$ | \psi \rangle \in A$$ is simply a morphism from the identity object: $$\psi: I \to A$$. Graphically, this is a box with no input wires and one output wire (a triangle). 
+A state vector $$|\psi \rangle \in A$$ is simply a morphism from the identity object: $$\psi: I \to A$$. Graphically, this is a box with no input wires and one output wire (a triangle). 
 
 ### The Interchange Law
 
@@ -33,11 +33,9 @@ To see how graphical calculus simplifies algebraic reasoning, consider the **Int
 
 $$(f_2 \otimes g_2) \circ (f_1 \otimes g_1) = (f_2 \circ f_1) \otimes (g_2 \circ g_1)$$
 
-Algebraically, proving compatibility across tensor products and compositions requires tedious index-tracking and formal axioms. Graphically, this identity simply means that independent operations can slide past one another along their respective wires:
+Algebraically, proving compatibility across tensor products and compositions requires tedious index-tracking and formal axioms. Graphically, this identity simply means that we can compute operations from down to up or left to right:
 
 ![The Interchange Law](/math_quantum/assets/images/interchange.png)
-
-By translating algebraic constraints into spatial topology, the graphical calculus allows us to replace heavy calculation with simple geometric sliding—making proofs intuitive, scannable, and far easier to construct.
 
 ***
 
