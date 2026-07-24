@@ -35,4 +35,4 @@ Graphically, this means that an S-shaped string formed by a Cup and a Cap is top
 
 ***
 
-[Next: The Teleportation Protocol](/protocol/)
+[Next: The Teleportation Protocol](/math_quantum/protocol/)
