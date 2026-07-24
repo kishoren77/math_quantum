@@ -1,9 +1,9 @@
 main:
   - title: "1. Intro"
-    url: /math_quantum/intro/
+    url: //intro/
   - title: "2. Math"
-    url: /math_quantum/math/
+    url: //math/
   - title: "3. Protocol"
-    url: /math_quantum/protocol/
+    url: //protocol/
   - title: "4. TQFT"
-    url: /math_quantum/tqft/
+    url: //tqft/
