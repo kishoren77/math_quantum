@@ -2,40 +2,30 @@
 layout: single
 title: "1. Categorical Quantum Mechanics"
 permalink: /intro/
-nav_exclude: true
 ---
 
-To capture quantum measurement and entanglement, we must enrich our monoidal category with two additional structures: a dagger functor and dual objects. This creates a **Dagger Compact Category**.
+### Monoidal Categories and Quantum Systems
 
-### The Dagger Functor ($$\dagger$$)
-A dagger category comes equipped with an involutive, identity-on-objects contravariant functor $$\dagger: \mathbf{C}^{op} \to \mathbf{C}$$. 
-For every morphism $$f: A \to B$$, there exists an adjoint $$f^\dagger: B \to A$$such that$$f^{\dagger \dagger} = f$$. 
-* **In $$\mathbf{FdHilb}$$:** This is the conjugate transpose (the adjoint operator).
-* **Graphically:** Taking the dagger corresponds to flipping the diagram upside down across the horizontal axis. 
+The foundational premise of Categorical Quantum Mechanics (CQM) is that the abstract structure of quantum information can be completely formalized using the framework of category theory, specifically bypassing standard matrix algebra in favor of a rigorous graphical calculus. 
 
-### Dual Objects and Compactness
-A category is compact closed (or rigid) if every object $$A$$has a dual object$$A^*$$ equipped with two specific morphisms:
-1. **The Unit (The "Cup"):** $$\eta: I \to A \otimes A^*$$
-2. **The Counit (The "Cap"):** $$\epsilon: A^* \otimes A \to I$$
+We formalize a physical theory as a **strict monoidal category** $$(\mathbf{C}, \otimes, I)$$. 
 
-In quantum mechanics, the unit $$\eta$$represents the preparation of a maximally entangled bipartite state (a Bell state). The counit$$\epsilon$$ represents a Bell measurement projecting onto a scalar. 
+* **Objects** ($$A, B, C \in \text{Ob}(\mathbf{C})$$) represent physical systems (e.g., Finite-Dimensional Hilbert Spaces, $$\mathbf{FdHilb}$$). 
+* **Morphisms** ($$f: A \to B$$) represent physical processes or state evolutions (e.g., linear operators).
+* **The Tensor Product** ($$\otimes: \mathbf{C} \times \mathbf{C} \to \mathbf{C}$$) represents the composition of systems.
+* **The Identity Object** ($$I$$) represents the trivial system (in $$\mathbf{FdHilb}$$, this is the complex field $$\mathbb{C}$$). 
 
-*(Insert your drawings of the Cup and Cap here)*
-`![The Cup](/assets/images/cup.png)`
-`![The Cap](/assets/images/cap.png)`
+### The Graphical Calculus
 
-### The Snake Equations
-The definition of a dual object requires that the unit and counit satisfy the "zigzag" or **Snake Equations**:
+By Joyal and Street's coherence theorem, any equation in a strict monoidal category is mathematically valid if and only if it can be proven using string diagrams up to planar isotopy. We assign:
 
-$$(\text{id}_A \otimes \epsilon) \circ (\eta \otimes \text{id}_{A^*}) = \text{id}_A$$
+1. **Wires** to objects $$A$$. Time flows from bottom to top.
+2. **Boxes** to morphisms $$f$$.
+3. **Sequential Composition** ($$g \circ f$$) is drawn by stacking $$g$$on top of$$f$$. 
+4. **Parallel Composition** ($$f \otimes g$$) is drawn by placing $$f$$and$$g$$ side-by-side.
 
-
-$$(\epsilon \otimes \text{id}_{A^*}) \circ (\text{id}_{A^*} \otimes \eta) = \text{id}_{A^*}$$
-
-Graphically, this means that an S-shaped string formed by a Cup and a Cap is topologically identical to a single, straight identity wire ($$\text{id}_A$$). 
+A state vector $$|\psi\rangle \in A$$is simply a morphism from the identity object:$$\psi: I \to A$$. Graphically, this is a box with no input wires and one output wire (a triangle). 
 
 ***
 
-[Next: The Teleportation Protocol](/math_quantum/math/)
-
-
+[Next: Dagger and Compact Structures](/math/)
