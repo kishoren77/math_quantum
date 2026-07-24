@@ -1,9 +1,9 @@
 main:
-  - title: "Posts"
-    url: /posts/
-  - title: "Categories"
-    url: /categories/
-  - title: "Tags"
-    url: /tags/
-  - title: "About"
-    url: /about/
+  - title: "1. Intro"
+    url: /math_quantum/intro/
+  - title: "2. Math"
+    url: /math_quantum/math/
+  - title: "3. Protocol"
+    url: /math_quantum/protocol/
+  - title: "4. TQFT"
+    url: /math_quantum/tqft/
