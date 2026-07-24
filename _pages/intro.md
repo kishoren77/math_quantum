@@ -21,8 +21,8 @@ Any equation in a strict monoidal category is mathematically valid if and only i
 
 1. **Wires** to objects $$A$$. Time flows from bottom to top.
 2. **Boxes** to morphisms $$f$$.
-3. **Sequential Composition** ($$g \circ f$$) is drawn by stacking $$g$$on top of$$f$$. 
-4. **Parallel Composition** ($$f \otimes g$$) is drawn by placing $$f$$and$$g$$ side-by-side.
+3. **Sequential Composition** ($$g \circ f$$) is drawn by stacking $$g$$ on top of $$f$$. 
+4. **Parallel Composition** ($$f \otimes g$$) is drawn by placing $$f$$ and $$g$$ side-by-side.
 
 A state vector $$|\psi\rangle \in A$$is simply a morphism from the identity object:$$\psi: I \to A$$. Graphically, this is a box with no input wires and one output wire (a triangle). 
 
