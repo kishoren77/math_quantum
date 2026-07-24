@@ -30,7 +30,7 @@ By the coherence theorem, any equation in a strict monoidal category is mathemat
 
 To see how graphical calculus simplifies algebraic reasoning, consider the **Interchange Law**:
 
-$$(g \circ f) \otimes (j \circ j) = (g \otimes j) \circ (f \otimes j)$$
+$$(g \circ f) \otimes (j \circ h) = (g \otimes j) \circ (f \otimes h)$$
 
 Algebraically, proving compatibility across tensor products and compositions requires tedious index-tracking and formal axioms. Graphically, this identity simply means that we can compute operations from down to up or left to right:
 
