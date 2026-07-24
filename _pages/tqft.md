@@ -7,9 +7,9 @@ nav_exclude: true
 
 ### From Strings to Surfaces
 
-In the previous sections, we modeled quantum mechanics using 1-dimensional string diagrams. However, as noted by mathematical physicist John Baez, the category of finite-dimensional Hilbert spaces ($$\mathbf{FdHilb}$$) shares a deep structural equivalence with the category of 2D cobordisms ($$\mathbf{Bord}_2$$). 
+In the previous sections, we modeled quantum mechanics using 1-dimensional string diagrams. However, the category of finite-dimensional Hilbert spaces ($$\mathbf{FdHilb}$$) shares a deep structural equivalence with the category of 2D cobordisms ($$\mathbf{Bord}_2$$). 
 
-My future research for this program will involve "inflating" our 1D string diagrams into 2D topological surfaces to explore the geometric intuition behind quantum entanglement.
+My future research for this program will involve inflating our 1D string diagrams into 2D topological surfaces.
 
 ### The Geometry of $$\mathbf{Bord}_2$$
 
@@ -26,7 +26,7 @@ If we reconstruct the teleportation protocol in $$\mathbf{Bord}_2$$, we plug Ali
 
 Topologically, this forms a continuous, hollow **"S"-shaped pipe**. 
 
-Because $$\mathbf{Bord}_2$$ is governed by smooth deformations (isotopy), pulling on the ends of an "S"-shaped rubber pipe perfectly straightens it out into a single, straight cylinder. Therefore, the geometry natively proves the Snake Equation: an S-pipe is topologically equal to an Identity cylinder. Teleportation is simply the act of straightening a tube!
+Because $$\mathbf{Bord}_2$$ is governed by smooth deformations, pulling on the ends of an "S"-shaped rubber pipe perfectly straightens it out into a single, straight cylinder. Therefore, the geometry natively proves the Snake Equation: an S-pipe is topologically equal to an Identity cylinder. Teleportation is simply the act of straightening a tube!
 
 ### The TQFT Functor
 
@@ -34,7 +34,7 @@ To make this mathematically rigorous, my next step is to study Topological Quant
 
 $$Z: \mathbf{Bord}_2 \to \mathbf{FdHilb}$$
 
-This functor acts as a perfect translation manual. It maps the geometric stretching of 2D surfaces directly onto the linear operators of standard quantum mechanics, beautifully uniting the geometry of manifolds with the flow of quantum information.
+This functor acts as a perfect translation manual. It maps the geometric stretching of 2D surfaces directly onto the linear operators of standard quantum mechanics, uniting the geometry of manifolds with the flow of quantum information.
 
 ***
 
