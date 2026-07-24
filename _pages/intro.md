@@ -27,7 +27,7 @@ By Joyal and Street's coherence theorem, any equation in a strict monoidal categ
 
 A state vector $$|\psi\rangle \in A$$is simply a morphism from the identity object:$$\psi: I \to A$$. Graphically, this is a box with no input wires and one output wire (a triangle). 
 
-#### The Interchange Law
+### The Interchange Law
 
 To see how graphical calculus simplifies algebraic reasoning, consider the **Interchange Law**:
 
