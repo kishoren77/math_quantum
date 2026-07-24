@@ -1,9 +1,9 @@
 main:
-  - title: "1. Intro"
+  - title: "Intro"
     url: //intro/
-  - title: "2. Math"
+  - title: "Category Theory"
     url: //math/
-  - title: "3. Protocol"
+  - title: "Protocol"
     url: //protocol/
-  - title: "4. TQFT"
+  - title: "TQFT"
     url: //tqft/
