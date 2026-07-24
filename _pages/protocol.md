@@ -52,12 +52,12 @@ In standard matrix mechanics, proving quantum teleportation requires tracking 3-
 
 In the graphical calculus, this entire algebraic derivation reduces to four intuitive geometric steps:
 
-![Quantum Teleportation Protocol](assets/images/teleportation.png)
+![Quantum Teleportation Protocol](/math_quantum/assets/images/teleportation.png)
 
-1. **Setup:** The initial state wire $L$, the Bell measurement (Cap), and the entangled pair (Cup) are assembled with the unitary transformation $U$.
-2. **Sliding Operators:** Using the duality properties of caps and cups, the operator $U$ slides smoothly along the wire.
-3. **Unitary Cancellation:** The operators combine and cancel out ($U^\dagger U = \text{id}_L$), leaving a pure, unadorned string.
-4. **Topological Simplification:** Applying the Snake Equation pulls the continuous S-curve taut into a single identity wire on system $L$.
+1. **Setup:** The initial state wire $$L$$, the Bell measurement (Cap), and the entangled pair (Cup) are assembled with the unitary transformation $$U$$.
+2. **Sliding Operators:** Using the duality properties of caps and cups, the operator $$U$$ slides smoothly along the wire.
+3. **Unitary Cancellation:** The operators combine and cancel out ($$U^\dagger U = \text{id}_L$$), leaving a pure, unadorned string.
+4. **Topological Simplification:** Applying the Snake Equation pulls the continuous S-curve taut into a single identity wire on system $$L$$.
 
 Without writing a single matrix, the geometry proves that information flows directly from input to output!
 
