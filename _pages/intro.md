@@ -18,7 +18,7 @@ We formalize a physical theory as a **strict monoidal category** $$(\mathbf{C}, 
 
 ### The Graphical Calculus
 
-By Joyal and Street's coherence theorem, any equation in a strict monoidal category is mathematically valid if and only if it can be proven using string diagrams up to planar isotopy. We assign:
+By the coherence theorem, any equation in a strict monoidal category is mathematically valid if and only if it can be proven using string diagrams up to planar isotopy. We assign:
 
 1. **Wires** to objects $$A$$. Time flows from bottom to top.
 2. **Boxes** to morphisms $$f$$.
