@@ -2,6 +2,7 @@
 layout: single
 title: "4. Future Work: TQFT"
 permalink: /tqft/
+nav_exclude: true
 ---
 
 ### From Strings to Surfaces
