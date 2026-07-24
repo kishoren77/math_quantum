@@ -2,6 +2,7 @@
 layout: single
 title: "3. The Teleportation Protocol"
 permalink: /protocol/
+nav_exclude: true
 ---
 
 ### The Setup: State Preparation and Entanglement
