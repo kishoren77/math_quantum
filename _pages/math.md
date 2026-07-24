@@ -35,5 +35,15 @@ $$(\epsilon \otimes \text{id}_{A^*}) \circ (\text{id}_{A^*} \otimes \eta) = \tex
 Graphically, this means that an S-shaped string formed by a Cup and a Cap is topologically identical to a single, straight identity wire ($$\text{id}_A$$). 
 
 ***
+### Algebraic vs. Graphical Representation: Dual Objects
 
+Traditionally, dual objects and their triangle equations are defined using strict algebraic commuting diagrams:
+
+![Algebraic Definition](assets/images/commutative_duals.png)
+
+In the graphical calculus, these identical axioms reduce to the continuous deformation of cups, caps, and string diagrams:
+
+![Graphical Definition](assets/images/graphical_duals.png)
+
+Where commuting diagrams require managing tedious natural isomorphisms, the string representation turns these equations into intuitive topological equivalences—what takes a full algebraic proof becomes simply pulling a string taut.
 [Next: The Teleportation Protocol](/math_quantum/protocol/)
