@@ -27,6 +27,18 @@ By Joyal and Street's coherence theorem, any equation in a strict monoidal categ
 
 A state vector $$|\psi\rangle \in A$$is simply a morphism from the identity object:$$\psi: I \to A$$. Graphically, this is a box with no input wires and one output wire (a triangle). 
 
+#### The Interchange Law
+
+To see how graphical calculus simplifies algebraic reasoning, consider the **Interchange Law**:
+
+$$(f_2 \otimes g_2) \circ (f_1 \otimes g_1) = (f_2 \circ f_1) \otimes (g_2 \circ g_1)$$
+
+Algebraically, proving compatibility across tensor products and compositions requires tedious index-tracking and formal axioms. Graphically, this identity simply means that independent operations can slide past one another along their respective wires:
+
+![The Interchange Law](assets/images/interchange.png)
+
+By translating algebraic constraints into spatial topology, the graphical calculus allows us to replace heavy calculation with simple geometric sliding—making proofs intuitive, scannable, and far easier to construct.
+
 ***
 
 [Next: Dagger and Compact Structures](/math/)
