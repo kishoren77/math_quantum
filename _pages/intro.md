@@ -1,7 +1,6 @@
 ---
 layout: single
 title: "1. Categorical Quantum Mechanics"
-permalink: /intro/
 nav_exclude: true
 ---
  
