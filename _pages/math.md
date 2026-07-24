@@ -28,6 +28,7 @@ The definition of a dual object requires that the unit and counit satisfy the "z
 
 $$(\text{id}_A \otimes \epsilon) \circ (\eta \otimes \text{id}_{A^*}) = \text{id}_A$$
 
+
 $$(\epsilon \otimes \text{id}_{A^*}) \circ (\text{id}_{A^*} \otimes \eta) = \text{id}_{A^*}$$
 
 Graphically, this means that an S-shaped string formed by a Cup and a Cap is topologically identical to a single, straight identity wire ($$\text{id}_A$$). 
