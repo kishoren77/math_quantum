@@ -28,4 +28,4 @@ A state vector $$|\psi\rangle \in A$$is simply a morphism from the identity obje
 
 ***
 
-[Next: Dagger and Compact Structures](/math/)
+[Next: Dagger and Compact Structures](/math_quantum/math/)
