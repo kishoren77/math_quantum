@@ -25,7 +25,6 @@ By the coherence theorem, any equation in a strict monoidal category is mathemat
 3. **Sequential Composition** ($$g \circ f$$) is drawn by stacking $$g$$ on top of $$f$$. 
 4. **Parallel Composition** ($$f \otimes g$$) is drawn by placing $$f$$ and $$g$$ side by side.
 
-A state vector $$|\psi \rangle \in A$$ is simply a morphism from the identity object: $$\psi: I \to A$$. Graphically, this is a box with no input wires and one output wire (a triangle). 
 
 ### The Interchange Law
 
