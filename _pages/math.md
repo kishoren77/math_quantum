@@ -16,11 +16,11 @@ For every morphism $$f: A \to B$$, there exists an adjoint $$f^\dagger: B \to A$
 
 ### Dual Objects and Compactness
 
-A category is compact closed (or rigid) if every object $$A$$has a dual object$$A^*$$ equipped with two specific morphisms:
+A category is compact closed (or rigid) if every object $$A$$ has a dual object $$A^*$$ equipped with two specific morphisms:
 1. **The Unit (The "Cup"):** $$\eta: I \to A \otimes A^*$$
 2. **The Counit (The "Cap"):** $$\epsilon: A^* \otimes A \to I$$
 
-In quantum mechanics, the unit $$\eta$$represents the preparation of a maximally entangled bipartite state (a Bell state). The counit$$\epsilon$$ represents a Bell measurement projecting onto a scalar. 
+In quantum mechanics, the unit $$\eta$$ represents the preparation of a maximally entangled bipartite state (a Bell state). The counit $$\epsilon$$ represents a Bell measurement projecting onto a scalar. 
 
 ### The Snake Equations
 
