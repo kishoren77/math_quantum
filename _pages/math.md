@@ -44,7 +44,7 @@ In the graphical calculus, these identical axioms reduce to the continuous defor
 
 ![Graphical Definition](/math_quantum/assets/images/graphical_duals.png)
 
-Where commuting diagrams require managing tedious natural isomorphisms, the string representation turns these equations into intuitive topological equivalences—what takes a full algebraic proof becomes simply pulling a string taut.
+Where commuting diagrams require managing tedious natural isomorphisms, the string representation turns these equations into intuitive topological equivalences.
 
 ***
 
