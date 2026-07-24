@@ -2,6 +2,7 @@
 layout: single
 title: "2. Dagger Compact Categories"
 permalink: /math/
+nav_exclude: true
 ---
 
 To capture quantum measurement and entanglement, we must enrich our monoidal category with two additional structures: a dagger functor and dual objects. This creates a **Dagger Compact Category**.
