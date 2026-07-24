@@ -1,7 +1,7 @@
 ---
 layout: single
-title: "2. Dagger Compact Categories"
-permalink: /math/
+title: "1. Categorical Quantum Mechanics"
+permalink: /intro/
 nav_exclude: true
 ---
 
@@ -36,6 +36,6 @@ Graphically, this means that an S-shaped string formed by a Cup and a Cap is top
 
 ***
 
-[Next: The Teleportation Protocol](/math_quantum/protocol/)
+[Next: The Teleportation Protocol](/math_quantum/math/)
 
 
