@@ -14,11 +14,11 @@ To facilitate the teleportation, Alice and Bob must share a maximally entangled 
 
 $$\eta: I \to A^* \otimes A$$
 
-Alice holds the subsystem $$A^*$$and Bob holds the subsystem$$A$$. Therefore, the total initial state of the system is the parallel composition of Alice's state and the entangled pair: $$\psi \otimes \eta$$.
+Alice holds the subsystem $$A^*$$ and Bob holds the subsystem $$A$$. Therefore, the total initial state of the system is the parallel composition of Alice's state and the entangled pair: $$\psi \otimes \eta$$.
 
 ### The Execution: Bell Measurement
 
-To teleport the state, Alice must perform a joint measurement on the two subsystems in her possession (her original state $$A$$and her half of the entangled pair$$A^*$$). 
+To teleport the state, Alice must perform a joint measurement on the two subsystems in her possession (her original state $$A$$ and her half of the entangled pair$$A^*$$). 
 
 In our categorical dictionary, projecting two subsystems onto a scalar (a Bell measurement) is precisely the counit (the "Cap"): 
 
