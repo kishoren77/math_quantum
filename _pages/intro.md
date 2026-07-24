@@ -7,7 +7,7 @@ nav_exclude: true
 
 ### Monoidal Categories and Quantum Systems
 
-The foundational premise of Categorical Quantum Mechanics (CQM) is that the abstract structure of quantum information can be completely formalized using the framework of category theory, specifically bypassing standard matrix algebra in favor of a rigorous graphical calculus. 
+The foundational premise of Categorical Quantum Mechanicsis that the abstract structure of quantum information can be completely formalized using the framework of category theory, specifically bypassing standard matrix algebra in favor of a rigorous graphical calculus. 
 
 We formalize a physical theory as a **strict monoidal category** $$(\mathbf{C}, \otimes, I)$$. 
 
@@ -25,7 +25,7 @@ By Joyal and Street's coherence theorem, any equation in a strict monoidal categ
 3. **Sequential Composition** ($$g \circ f$$) is drawn by stacking $$g$$on top of$$f$$. 
 4. **Parallel Composition** ($$f \otimes g$$) is drawn by placing $$f$$and$$g$$ side-by-side.
 
-A state vector $$|\psi\rangle \in A$$is simply a morphism from the identity object:$$\psi: I \to A$$. Graphically, this is a box with no input wires and one output wire (a triangle). 
+A state vector $$|\psi\rangle \in A$$ is simply a morphism from the identity object: $$\psi: I \to A$$. Graphically, this is a box with no input wires and one output wire (a triangle). 
 
 ### The Interchange Law
 
