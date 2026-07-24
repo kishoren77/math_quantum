@@ -4,7 +4,7 @@ title: "1. Categorical Quantum Mechanics"
 permalink: /intro/
 nav_exclude: true
 ---
-
+ 
 ### Monoidal Categories and Quantum Systems
 
 The foundational premise of Categorical Quantum Mechanics (CQM) is that the abstract structure of quantum information can be completely formalized using the framework of category theory, specifically bypassing standard matrix algebra in favor of a rigorous graphical calculus. 
